@@ -1,4 +1,3 @@
-// #region ::: IMPORTS :::
 import { createClient } from "@vercel/postgres";
 import express, { Request, Response } from "express";
 import { config } from "dotenv";
