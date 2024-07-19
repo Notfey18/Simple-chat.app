@@ -1,0 +1,10 @@
+### MESSAGE LIST
+GET http://localhost:3000/api/messages
+
+### MESSAGE CREATE 
+POST http://localhost:3000/api/messages
+Content-Type: application/json
+
+{
+  "content": "Here we go again!!"
+}
